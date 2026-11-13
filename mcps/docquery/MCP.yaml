@@ -1,0 +1,15 @@
+id: docquery
+name: DocQuery
+description: Read-only hosted MCP over a spreadsheet (Excel, CSV, Google Sheets, Airtable) and the PDFs beside it, joined as one relational dataset with source file and page on PDF rows.
+author: DocQuery
+url: https://docquery.io/api/v1/mcp
+category: data
+prerequisites:
+  - DocQuery account (free plan; OAuth sign-in on first use)
+content:
+  - name: DocQuery hosted remote server
+    content: |
+      {
+        "type": "streamable-http",
+        "url": "https://docquery.io/api/v1/mcp"
+      }
